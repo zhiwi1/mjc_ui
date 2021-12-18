@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url(c:\dev\Front\css\fonts.css);
+@font-face {
+  font-family: "GothamRnd";
+  src: url("assets/fonts/GothamRnd-Book.eot");
+  src: local("☺"), url("assets/fonts/GothamRnd-Book.woff") format("woff"), url("assets/fonts/GothamRnd-Book.ttf") format("truetype"), url("assets/fonts/GothamRnd-Book.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamRounded-Medium";
+  src: url("../assets/fonts/GothamRounded-Medium.eot");
+  src: local("☺"), url("../assets/fonts/GothamRounded-Medium.woff") format("woff"), url("../assets/fonts/GothamRounded-Medium.ttf") format("truetype"), url("../assets/fonts/GothamRounded-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamRnd";
+  src: url("../assets/fonts/GothamRnd-Bold.eot");
+  src: local("☺"), url("assets/fonts/GothamRnd-Bold.woff") format("woff"), url("../assets/fonts/GothamRnd-Bold.ttf") format("truetype"), url("../assets/fonts/GothamRnd-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "GothamRnd";
+  font-style: normal;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */

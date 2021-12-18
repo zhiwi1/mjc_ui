@@ -1,8 +1,10 @@
+@charset "UTF-8";
 .title {
     text-transform: uppercase;
 }
 .header {
     display: flex;
+    background-color:#cccccc ;
 }
 .search-form {
     display: flex;
@@ -38,8 +40,6 @@
     border: 0.15em solid #cccccc;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Segoe UI", "Roboto", sans-serif;
-    font-weight: 400;
     color: #000000;
     background-color: #cccccc;
     text-align: center;
