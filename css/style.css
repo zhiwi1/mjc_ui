@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(c:\dev\Front\css\reset.css);
 @import url(c:\dev\Front\css\fonts.css);
 @font-face {
   font-family: "GothamRnd";
@@ -28,5 +29,245 @@ body {
   font-family: "GothamRnd";
   font-style: normal;
   font-weight: 500;
+}
+
+.category-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.category-item {
+  margin: 30px 40px;
+}
+
+.category-photo {
+  background-color: grey;
+  height: 60px;
+  width: 60px;
+}
+
+.category-label {
+  margin-top: 5px;
+}
+
+.coupons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.coupon {
+  width: 80%;
+  border-radius: 15px;
+  /* Rounded border */
+  margin: 0 auto;
+  /* Center the coupon */
+  max-width: 230px;
+}
+
+.coupon-container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.coupon__photo {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+.coupon__first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.coupon__second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.coupon__third-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.coupon__name {
+  font-size: 17pt;
+}
+
+.coupon__description {
+  font-size: 7pt;
+  font-weight: 700;
+}
+
+.coupon__exp-time {
+  font-size: 6pt;
+  font-weight: 100;
+}
+
+.register-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register-form {
+  background: #f1f1f1;
+}
+
+.login-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-form {
+  background: #f1f1f1;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  border: 0.15em solid #04aa6d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.signinbtn {
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  border: 0.15em solid #04aa6d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.signinbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.register__label {
+  font-size: x-large;
+  text-align: center;
+  margin-right: 390px;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.login__label {
+  font-size: x-large;
+  text-align: center;
+  margin-right: 300px;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.login-buttons {
+  text-align: center;
+  margin-left: 250px;
+}
+
+.register-buttons {
+  text-align: center;
+  margin-left: 250px;
+}
+
+.register-form-second-column {
+  padding-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */
