@@ -182,7 +182,7 @@ hr {
 }
 
 /* Set a style for the submit/register button */
-.registerbtn {
+.acceptbtn {
   display: inline-block;
   padding: 0.2em 1.45em;
   margin: 0.1em;
@@ -269,5 +269,11 @@ a {
 
 .register-form-second-column {
   padding-left: 15px;
+}
+
+.inputs-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

@@ -142,7 +142,7 @@ hr {
 }
 
 /* Set a style for the submit/register button */
-.registerbtn {
+.acceptbtn {
     display: inline-block;
     padding: 0.2em 1.45em;
     margin: 0.1em;
@@ -174,13 +174,12 @@ hr {
     cursor: pointer;
     opacity: 0.9;
 }
-.registerbtn:hover {
+.acceptbtn:hover {
     opacity: 1;
 }
 .signinbtn:hover {
     opacity: 1;
 }
-
 
 /* Add a blue text color to links */
 a {
@@ -216,4 +215,7 @@ a {
 }
 .register-form-second-column {
     padding-left: 15px;
+}
+.inputs-item {
+    display: flex;
 }
