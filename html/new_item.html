@@ -46,47 +46,73 @@
 
   </header>
   <form class="add-item" action="login.html" method="post">
+    <div class="add-item__label"><label>Add new item</label></div>
     <div class="item-form">
       <section class="inputs-item">
-      <div class="first-column-login">
-      <div class="item-form-field">
-        <label class="label" for="company">Company</label>
-        <input class="item-form_input" type="text" name="login" value="">
+        <div class="first-column-login">
+          <div class="item-form-field">
+            <label class="label" for="company">Company</label>
+            <input class="item-form_input" type="text" name="login" value="">
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="category">Category</label>
+            <br>
+            <div class="input-icon">
+              <span class="material-icons arrow">
+                expand_more
+              </span>
+            </div>
+            <select class="item-form-select" name="category" id="cars">
+              <option class="header-category" value="all-categories">All categories</option>
+              <option class="header-category" value="saab">Certificates</option>
+              <option class="header-category" value="opel">Opel</option>
+              <option class="header-category" value="audi">Audi</option>
+            </select>
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="valid-to">Valid to</label>
+            <div class="input-icon">
+              <span class="material-icons">
+                event
+              </span>
+            </div>
+            <input class="item-form-input" type="text" value="">
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="price">Price</label>
+            <input class="item-form-input" type="text" name="repeat-password" value="">
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="images">Images</label>
+            <div class="input-icon">
+              <span class="material-icons">
+                perm_media
+              </span>
+            </div>
+            <input class="item-form-input" type="text" value="">
+          </div>
+        </div>
+        <div class="second-column-login">
+          <div class="item-form-field">
+            <label class="label" for="item-name">Item name</label>
+            <input class="item-form-input" type="text" name="address" value="">
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="short-desc">Short description</label>
+            <br>
+            <textarea class="item-form-textarea" type="text" value=""></textarea>
+          </div>
+          <div class="item-form-field">
+            <label class="label" for="long-desc">Long description</label>
+            <br>
+            <textarea class="item-form-textarea" type="text" value=""></textarea>
+          </div>
+        </div>
+      </section>
+      <div class="item-buttons">
+        <button class="button" type="button">Back</button>
+        <button class="acceptbtn" type="submit" name="button">Save</button>
       </div>
-      <div class="item-form-field">
-        <label class="label" for="category">Category</label>
-        <input class="item-form-input" type="text" name="name" value="">
-      </div>
-      <div class="item-form-field">
-        <label class="label" for="valid-to">Valid to</label>
-        <input class="item-form-input" type="text" value="">
-      </div>
-      <div class="item-form-field">
-        <label class="label" for="price">Price</label>
-        <input class="item-form-input" type="text" name="repeat-password" value="">
-      </div>
-      <div class="item-form-field">
-        <label class="label" for="images">Images</label>
-        <input class="item-form-input" type="text" value="">
-      </div>
-    </div>
-    <div class="second-column-login">
-      <div class="item-form-field">
-        <label class="label" for="item-name">Item name</label>
-        <input class="item-form-input" type="text" name="address" value="">
-      </div>
-      <div class="item-form-field">
-        <label class="label" for="short-desc">Short description</label>
-        <input class="item-form-input" type="text" value="">
-      </div>
-      <div class="item-form-field">
-        <label class="label" for="long-desc">Long description</label>
-        <input class="item-form-input" type="text" value="">
-      </div>
-      </div>
-    </section>
-      <button class="button" type="button">Back</button>
-      <button class="acceptbtn" type="submit" name="button">Save</button>
     </div>
 
   </form>

@@ -1,0 +1,129 @@
+body {
+  margin: 20px 20px;
+}
+
+.item-page {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-content {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.item-photo {
+  background-color: gray;
+  height: 300px;
+  width: 700px;
+}
+
+.item-card {
+  background: #f1f1f1;
+  height: 300px;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.item-card-content {
+  margin: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-card-name {
+  font-size: 20px;
+}
+
+.item-card-description {
+  margin-top: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+.item-card-date {
+  margin-top: 40px;
+  color: gray;
+}
+
+.full-item-description {
+  margin: 50px;
+}
+
+.item-card-bottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item-card-bottom-price {
+  font-size: 30px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.item-card-bottom-buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.item-card-bottom-link {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.item-description {
+  margin-top: 30px;
+  width: 700px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.item-description-header {
+  font-size: 40px;
+}
+/*# sourceMappingURL=item.css.map */

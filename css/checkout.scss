@@ -1,0 +1,105 @@
+
+  
+  .checkout-page {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .checkout-page__name {
+    font-size: 30px;
+    margin: 10px 300px;
+  }
+  
+  .checkout-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 300px;
+  }
+  
+  .checkout-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkout-item-photo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+  }
+  
+  .checkout-item-data {
+    display: flex;
+  }
+  
+  .checkout-item-text {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  
+  .checkout-item-data-name {
+    font-size: 20px;
+  }
+  
+  .checkout-item-price {
+    margin: 25px 10px;
+    font-size: 30px;
+  }
+  
+  .checkout-item-data-descrption {
+    margin-top: 10px;
+  }
+  
+  .checkout-total {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    width: 200px;
+    align-self: flex-end;
+    font-size: 30px;
+  }
+  
+  .checkout-total-price {
+    margin-right: 10px;
+  }
+  
+  .checkout-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    width: 450px;
+    align-self: flex-end;
+  }
+  
+  
+  
+  .checkout-button-submit {
+    display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  border: 0.15em solid #04aa6d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+  }

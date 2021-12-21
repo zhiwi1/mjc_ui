@@ -4,47 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/item.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Certificate shop</title>
 </head>
 
 <body>
     <header class="header">
-        <button class="menu">Menu</button>
-        <div class="logo">
-            <a href="#">logo</a>
-        </div>
+        <div class="list"><span class="material-icons">
+                list
+            </span></div>
 
         <form action="" class="search-form">
-            <input placeholder="search" class="search-form__input">
-            <a href="#">Sort</a>
-            <ul class="search-form__filter">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-            </ul>
-            <button class="search-form__button">Найти</button>
+            <input placeholder="search by item name" class="search-form__input">
+            <select class="header-category" name="cars" id="cars">
+                <option class="header-category" value="all-categories">All categories</option>
+                <option class="header-category" value="saab">Certificates</option>
+                <option class="header-category" value="opel">Opel</option>
+                <option class="header-category" value="audi">Audi</option>
+            </select>
+
+
+            <button class="search-form__button button">search</button>
         </form>
+        <div class="right-buttons">
+            <span class="material-icons">
+                shopping_cart
+            </span>
 
 
-        <a class="header__busket" href="#">busket</a>
-
-        <div class="auth">
-            <button class="auth__sign-in-button">Sign in</button>
-            <span class="auth__delimiter">|</span>
-            <button class="auth__sign-up-button">Sign up</button>
+            <div class="auth">
+                <button class="auth__sign-in-button button">Sign in</button>
+                <span class="auth__delimiter">|</span>
+                <button class="auth__sign-up-button button">Sign up</button>
+            </div>
         </div>
 
 
     </header>
-    <div class="certificate">
-        <div class="certificate__logo">
-            <a href="#">logo</a>
+    <div class="item-page">
+        <div class="item-content">
+            <div class="item-block">
+                <div class="item-photo">
+
+                </div>
+                <div class="item-card">
+                    <div class="item-card-content">
+                        <div class="item-card-name">
+                            <strong>Coupon Name</strong>
+                        </div>
+                        <div class="item-card-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id
+                            lectus mi. Phasellus sed congue arcu. Nullam condimentum tortor in
+                            mi aliquet posuere et at risus. Pellentesque consequat purus mi,
+                            quis facilisis neque aliquet sit amet.
+                        </div>
+                        <div class="item-card-date">
+                            Time left to buy <br> <strong>12 days 14 hours</strong>
+                        </div>
+                        <div class="item-card-bottom">
+                            <div class="item-card-bottom-price">
+                                235$
+                            </div>
+                            <div class="item-card-bottom-buy">
+                                <a class="item-card-bottom-link">Add to card</a>
+                                <span class="material-icons">
+                                    shopping_cart
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="full-item-description">
+                <div class="item-description">
+                  Item Detailed description
+                </div>
+                <div class="item-description-text">
+                    Phasellus vestibulum, libero at fringilla lacinia, augue sem auctor
+                    purus, id vestibulum turpis tellus fringilla neque. Ut nec nulla id
+                    ante tincidunt vestibulum sed sed ligula. Fusce justo libero, molestie
+                    vitae semper in, venenatis eget orci. Fusce in mi luctus, auctor
+                    velit sed, tincidunt augue. Vestibulum ornare mi at finibus pulvinar.
+                </div>
+            </div>
         </div>
-        <div class="certificate__name"></div>
-        <div class="certificate__description"></div>
-        <div class="certificate_time"></div>
-        <div class="certificate_long-desc"></div>
-        <a class="" href="#">Buy</a>
+    </div>
     </div>
 
 </body>
