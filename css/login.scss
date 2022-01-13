@@ -1,0 +1,79 @@
+.login-inputs {
+    display: flex;
+    justify-content: center;
+}
+.login-form {
+    background: #f1f1f1;
+}
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.login__label {
+    font-size: x-large;
+    text-align: center;
+    margin-right: 300px;
+    height: 70px;
+    padding-top: 20px;
+}
+.login-buttons {
+    text-align: center;
+    margin-left: 250px;
+}
+.signinbtn {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #04aa6d;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    width: max-content;
+    background-color: #04aa6d;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.signinbtn:hover {
+    opacity: 1;
+}
+.acceptbtn {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #04aa6d;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    width: max-content;
+    background-color: #04aa6d;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.acceptbtn:hover {
+    opacity: 1;
+}
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.second-column-login{
+    margin-left: 30px;
+}

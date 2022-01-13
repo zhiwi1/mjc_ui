@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'icomoon';
   src: url("../assets/fonts/icomoon.eot?mx5skc");
@@ -7,49 +8,26 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
+@font-face {
+  font-family: "GothamRnd";
+  src: url("../assets/fonts/fontsGothamRnd-Book.eot");
+  src: local("☺"), url("../assets/fonts/GothamRnd-Book.woff") format("woff"), url("../assets/fonts/GothamRnd-Book.ttf") format("truetype"), url("assets/fonts/GothamRnd-Book.svg") format("svg");
+  font-weight: 300;
   font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-android:before {
-  content: "\e906";
+@font-face {
+  font-family: "GothamRounded-Medium";
+  src: url("../assets/fonts/GothamRounded-Medium.eot");
+  src: local("☺"), url("../assets/fonts/GothamRounded-Medium.woff") format("woff"), url("../assets/fonts/GothamRounded-Medium.ttf") format("truetype"), url("../assets/fonts/GothamRounded-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
 }
 
-.icon-check:before {
-  content: "\e905";
+@font-face {
+  font-family: "GothamRnd";
+  src: url("../assets/fonts/GothamRnd-Bold.eot");
+  src: local("☺"), url("assets/fonts/GothamRnd-Bold.woff") format("woff"), url("../assets/fonts/GothamRnd-Bold.ttf") format("truetype"), url("../assets/fonts/GothamRnd-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
 }
-
-.icon-left-arrow:before {
-  content: "\e903";
-}
-
-.icon-right-arrow:before {
-  content: "\e904";
-}
-
-.icon-dribbble:before {
-  content: "\e900";
-}
-
-.icon-flickr:before {
-  content: "\e901";
-}
-
-.icon-twitter:before {
-  content: "\e902";
-}
-
-.icon-apple:before {
-  content: "\eabe";
-}
-/*# sourceMappingURL=fonts.css.map */

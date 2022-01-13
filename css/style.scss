@@ -1,35 +1,8 @@
 @charset "UTF-8";
-@import "reset.css";
-@import "fonts.css";
+@import url(reset.css);
+@import url(fonts.css);
 
-@font-face {
-    font-family: "GothamRnd";
-    src: url("assets/fonts/GothamRnd-Book.eot");
-    src: local("☺"), url("assets/fonts/GothamRnd-Book.woff") format("woff"),
-        url("assets/fonts/GothamRnd-Book.ttf") format("truetype"), url("assets/fonts/GothamRnd-Book.svg") format("svg");
-    font-weight: 300;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: "GothamRounded-Medium";
-    src: url("../assets/fonts/GothamRounded-Medium.eot");
-    src: local("☺"), url("../assets/fonts/GothamRounded-Medium.woff") format("woff"),
-        url("../assets/fonts/GothamRounded-Medium.ttf") format("truetype"),
-        url("../assets/fonts/GothamRounded-Medium.svg") format("svg");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "GothamRnd";
-    src: url("../assets/fonts/GothamRnd-Bold.eot");
-    src: local("☺"), url("assets/fonts/GothamRnd-Bold.woff") format("woff"),
-        url("../assets/fonts/GothamRnd-Bold.ttf") format("truetype"),
-        url("../assets/fonts/GothamRnd-Bold.svg") format("svg");
-    font-weight: 700;
-    font-style: normal;
-}
 body {
     font-family: "GothamRnd";
     font-style: normal;
@@ -51,6 +24,10 @@ body {
     width: 60px;
 }
 
+.category-img{
+    height: 60px;
+    width: 60px;
+}
 .category-label {
     margin-top: 5px;
 }
@@ -276,3 +253,41 @@ a {
     margin-top: 20px;
     margin-left: 250px;
 }
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

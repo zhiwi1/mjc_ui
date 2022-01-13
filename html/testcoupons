@@ -1,0 +1,116 @@
+ <div class="coupons">
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="coupon">
+            <div class="coupon-container">
+                <div class="coupon__photo"></div>
+                <div class="coupon__first-line">
+                    <div class="coupon__name">Coupon name</div>
+                    <span class="material-icons coupon__like">
+                        favorite
+                    </span>
+                </div>
+                <div class="coupon__second-line">
+                    <div class="coupon__description">Some brief description</div>
+                    <div class="coupon__exp-time">Expires in 3 days</div>
+                </div>
+                <div class="coupon__third-line">
+                    <div class="coupon__cost">$235</div>
+                    <button class="coupon__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>

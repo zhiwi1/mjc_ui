@@ -20,15 +20,23 @@
 
         <form action="" class="search-form">
             <input placeholder="search by item name" class="search-form__input">
-            <select class="header-category" name="cars" id="cars">
-                <option class="header-category" value="all-categories">All categories</option>
-                <option class="header-category" value="saab">Certificates</option>
-                <option class="header-category" value="opel">Opel</option>
-                <option class="header-category" value="audi">Audi</option>
+            <select  class="select header-category" name="cars" id="criteria-search">
+                <option class="header-category" value="name">By name</option>
+                <option class="header-category" value="description">By description</option>
+
+            </select>
+            <select class="select header-category" name="cars" id="category-search">
+                <option class="header-category" value="">All categories</option>
+                <option class="header-category" value="formen">For men</option>
+                <option class="header-category" value="forwomen">For women</option>
+                <option class="header-category" value="sport">Sport</option>
+                <option class="header-category" value="children">Children</option>
+                <option class="header-category" value="summer">Summer</option>
+                <option class="header-category" value="food">Food</option>
             </select>
 
 
-            <button class="search-form__button button">search</button>
+            <button hidden class="search-form__button button">search</button>
         </form>
         <div class="right-buttons">
             <span class="material-icons">
@@ -47,168 +55,115 @@
     </header>
     <nav class="category-nav">
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch(null)" class="category-photo"><img class="category-img" id="category-img_all">
+            </div>
+            <label class="category-label" for="photo-div">All</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('formen')" class="category-photo"><img class="category-img"
+                    id="category-img_man"></div>
+            <label class="category-label" for="photo-div">For men</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('forwomen')" class="category-photo"><img class="category-img"
+                    id="category-img_woman"></div>
+            <label class="category-label" for="photo-div">For women</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('sport')" class="category-photo"><img class="category-img"
+                    id="category-img_sport"></div>
+            <label class="category-label" for="photo-div">Sport</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('children')" class="category-photo"><img class="category-img"
+                    id="category-img_children"></div>
+            <label class="category-label" for="photo-div">Children</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('summer')" class="category-photo"><img class="category-img"
+                    id="category-img_summer"></div>
+            <label class="category-label" for="photo-div">Summer</label>
         </div>
         <div class="category-item">
-            <div class="category-photo"></div>
-            <label class="category-label" for="photo-div">Category</label>
+            <div onclick="categorySearch('food')" class="category-photo"><img class="category-img" id="category-img_food">
+            </div>
+            <label class="category-label" for="photo-div">Food</label>
         </div>
+
     </nav>
-    <div class="coupons">
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="coupon">
-            <div class="coupon-container">
-                <div class="coupon__photo"></div>
-                <div class="coupon__first-line">
-                    <div class="coupon__name">Coupon name</div>
-                    <span class="material-icons coupon__like">
-                        favorite
-                    </span>
-                </div>
-                <div class="coupon__second-line">
-                    <div class="coupon__description">Some brief description</div>
-                    <div class="coupon__exp-time">Expires in 3 days</div>
-                </div>
-                <div class="coupon__third-line">
-                    <div class="coupon__cost">$235</div>
-                    <button class="coupon__button">Add to Cart</button>
-                </div>
-            </div>
-        </div>
+    <div class="coupon-catalog">
+
     </div>
 
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <button onclick="lastPosFunction()" id="myBtn" title="Go to top">Down</button>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script type="module">
 
+        // Import the functions you need from the SDKs you need
+        //  import { getStorage, ref } from "firebase/storage";
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js";
+        import { getStorage, ref, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-storage.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCkfPweZ_dPuF9nPXsgTEpdU_hh17ncM6Q",
+            authDomain: "mjc-project-b5949.firebaseapp.com",
+            projectId: "mjc-project-b5949",
+            storageBucket: "mjc-project-b5949.appspot.com",
+            messagingSenderId: "497559844437",
+            appId: "1:497559844437:web:ff8052310902f3f35406dc",
+            measurementId: "G-LFKSQR0968"
+        };
+        initializeApp(firebaseConfig);
+        // Initialize Firebase
+        //const app = initializeApp(firebaseConfig);
+        //  const analytics = getAnalytics(app);
+        ///app.getDownloadURL()
+
+        function downloadData(filename,id) {
+
+
+            // Get a reference to the storage service, which is used to create references in your storage bucket
+            const storage = getStorage();
+
+            // Create a storage reference from our storage service
+            const storageRef = ref(storage);
+            const pathReference = ref(storage, filename);
+            
+            //  const ref = firebase.storage().ref();
+            //  = storage.refFromURL(storage, 'gs://bucket/images/stars.jpg');
+            getDownloadURL(pathReference)
+                .then((url) => {
+                 
+                    const img = document.getElementById(id);
+                    img.setAttribute('src', url);
+                })
+                .catch((error) => {
+                    // Handle any errors
+                })
+        }
+        downloadData("man.jpg",'category-img_man');
+        downloadData("romashka.jpg",'category-img_woman');
+        downloadData("food.jpg",'category-img_food',);
+        downloadData("summer.jpg",'category-img_summer');
+        downloadData("sport.jpg",'category-img_sport');
+        downloadData("kid.jpg",'category-img_children');
+        downloadData("all.jpg",'category-img_all');
+    </script>
 </body>
 <hr>
+<script src="../js/infinite-scroll.js"></script>
+<script src="../js/scroll-back.js"></script>
 
 
-
-
-<form class="add-item" action="login.html" method="post">
-    <div class="item-form-field">
-        <label class="label" for="long-desc">Long description</label>
-        <input class="item-form-input" type="text" value="">
-    </div>
-    <button class="back-button button" type="button">Back</button>
-    <button class="register-submit button" type="submit" name="button">Checkout</button>
-</form>
-
-
+<!-- <script src="../js/remember-scroll.js"></script> -->
 <footer class="footer">
 
 </footer>

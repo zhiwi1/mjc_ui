@@ -65,17 +65,17 @@ body {
           justify-content: center;
 }
 
-.item-card-name {
+.item-card__name {
   font-size: 20px;
 }
 
-.item-card-description {
+.item-card__description {
   margin-top: 10px;
   color: gray;
   font-size: 16px;
 }
 
-.item-card-date {
+.item-card__date {
   margin-top: 40px;
   color: gray;
 }
